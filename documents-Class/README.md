@@ -11,6 +11,8 @@ Subfolders are named with a **numeric prefix indicating the week number**, follo
 
 This folder also contains core course documents such as the syllabus, research frameworks, and planning guides.
 
+The reusable syllabus source is [Syllabus_MTEC3501.md](Syllabus_MTEC3501.md). Update its semester configuration before adapting it for a specific section.
+
 ## Important Distinction: Support vs. Assignments
 
 **documents-Class/** contains **teaching materials and support resources** — these guide students through concepts, provide templates, and offer frameworks.

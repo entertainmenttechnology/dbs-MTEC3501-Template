@@ -1,6 +1,6 @@
 # Quick Start — Onboarding & Git Workflow
 
-This document lists the core applications used in MTEC 3501 and the high-level steps to get each one ready so you can begin work quickly. Use the detailed workflow sections below for branch/PR policy, syncing, and a short PR checklist.
+This document lists the core applications and account connections used in MTEC 3501. Complete the startup sequence before beginning project work, then use the GitHub workflow to maintain your individual project repository.
 
 Applications used in this course
 
@@ -11,28 +11,32 @@ Applications used in this course
 - Browser (Chrome, Firefox, Safari) — for GitHub, Zotero Connector, and web tools
 - Optional/Project tools: Figma, Adobe XD, Blender, Unity, Unreal Engine, Python/Node.js runtimes — installed per project needs
 
-High-level setup steps
+## Startup Sequence
 
-1. Create accounts: GitHub and Zotero. Confirm your GitHub username meets the course spec (Week 1 onboarding doc).
-2. Install tools: GitHub Desktop (or Git), Visual Studio Code, Zotero, and the Zotero browser connector.
-3. Configure Git: set your name and email (`git config --global user.name "Your Name"`; `git config --global user.email you@example.com`) and create SSH keys if you prefer SSH cloning.
-4. Sign into GitHub Desktop (or authenticate Git with your credentials/SSH key).
-5. Confirm access: instructors will grant write access if using the central-branch workflow; otherwise fork the repo and clone your fork.
-6. Create your branch (`student-LastName-FirstName`) and create your `projects/YourName/` folder for deliverables.
-7. Install optional project tools as needed for your specific project; we'll note required tools in assignment prompts.
+Complete these steps in order:
 
-If you prefer a step-by-step beginner guide (GitHub Desktop flows, Zotero connector install, and CLI equivalents), see the Getting Started section in the course README or continue in this document for the full Git workflow.
+1. Create or confirm a GitHub account. Use an identifiable username containing your last name and at least the initial of your first name, and replace the default GitHub avatar with a recognizable, professional avatar.
+2. Create or confirm a Zotero account, install Zotero Desktop and Zotero Connector, and sign in to sync them.
+3. Accept the instructor's invitation to the MTEC 3501 Zotero group library. Locate the shared class-materials collection and create your own collection for project research.
+4. Create or confirm a professional Google account and confirm access to the current course Google Drive and shared documents.
+5. Join the current MTEC 3501 Discord server. Set your course server nickname so classmates and instructors can identify you, and enable notifications for important channels. Discord is for informal communication; official instructions and deadlines remain in the class repository and syllabus.
+6. Read the current semester syllabus: [`Syllabus_MTEC3501.md`](../Syllabus_MTEC3501.md). Also review the current semester configuration, assignments, schedule, Discord instructions, Google materials, and Zotero access information.
+7. Create your individual project repository from the [MTEC3501 Student Project Repository Template](https://github.com/entertainmenttechnology/MTEC3501-Student-Template), choosing your own personal GitHub account as the repository owner. Do not create it under the course organization unless the instructor gives different instructions.
+8. Complete the project metadata in the new repository's root README, then create its first GitHub Project and initial Issues for the work ahead.
+9. Install project-specific software or hardware as your project requires. Record those requirements in your project documentation.
+
+The Week 1 onboarding assignment provides the submission checklist and account-identification requirements.
 
 ## Accounts & Tools
 
 Before you begin, create or confirm the following accounts and install the recommended tools. These are the core applications used in this course.
 
-- GitHub account: https://github.com/join (used for repository access, branches, and PRs)
+- GitHub account: https://github.com/join (used for repository hosting, Issues, Projects, and version control)
 - Git (command-line) or GitHub Desktop: https://desktop.github.com/ (Desktop recommended for beginners)
 - Visual Studio Code (editor): https://code.visualstudio.com/
 - Zotero account and Zotero Connector: https://www.zotero.org/download/ (Zotero desktop app is optional but recommended for full features)
 - Web browser (Chrome, Firefox, or Safari) with cookie/logins enabled for GitHub and Zotero
-- GitHub Projects / Issues (built into GitHub) — for task tracking
+- GitHub Projects / Issues (built into GitHub) — for task tracking and project planning
 
 Optional / course-dependent tools (examples):
 
@@ -47,70 +51,42 @@ Notes:
 - We will provide project-specific tooling notes in assignment prompts when needed.
 
 
-Preferred workflow (central repo branches)
+## Individual Student Repository Workflow
 
-Note: this requires students to have write access to the central class repo. If you will grant students write access, use this workflow so all student work lives in a single repository and each student works on their own branch.
+Your individual repository is the primary workspace for your research, design, prototype, documentation, and project history. The class repository remains the authoritative source for course materials and assignments.
 
-1. Clone the central repository (replace `org-or-instructor` if different):
+1. Create your repository from the [MTEC3501 Student Project Repository Template](https://github.com/entertainmenttechnology/MTEC3501-Student-Template) in your own GitHub account. Choose a clear repository name that identifies the project.
 
 ```bash
-git clone git@github.com:org-or-instructor/REPOSITORY-NAME.git
-cd REPOSITORY-NAME
+git clone git@github.com:your-username/your-project-repository.git
+cd your-project-repository
 ```
 
-2. Create a branch on `origin` and push:
+2. Complete the root README metadata and confirm that the expected folders and Issue templates are present.
+
+3. Commit regularly with messages that describe the change. Push completed work to your personal repository:
 
 ```bash
-git checkout -b student-LastName-FirstName
-git push -u origin student-LastName-FirstName
-```
-
-3. Work in `projects/YourName/`, commit regularly, push to your branch, and open a Pull Request on GitHub from `student-LastName-FirstName` to `main` (or the designated integration branch).
-
-Branch naming policy (recommended):
-
-- `student-LastName-FirstName` — personal work
-- `team-ProjectName` — for group projects
-- `fix/short-description` or `feat/short-description` — minor task branches
-
-Fork workflow (if you do not have write access)
-
-1. Fork this repository to your GitHub account (click "Fork" on GitHub).
-2. Clone your fork locally (replace `your-username`):
-
-```bash
-git clone git@github.com:your-username/REPOSITORY-NAME.git
-cd REPOSITORY-NAME
-```
-
-3. Create and push your branch to your fork:
-
-```bash
-git checkout -b student-LastName-FirstName
-git push -u origin student-LastName-FirstName
-```
-
-4. Open a Pull Request from your fork/branch to the central repo.
-
-Keeping your branch/repo up to date (central-branch workflow):
-
-```bash
-# add upstream once (central repo)
-git remote add upstream git@github.com:org-or-instructor/REPOSITORY-NAME.git
-git fetch upstream
-git checkout main
-git merge upstream/main
+git add .
+git commit -m "Describe the project change"
 git push origin main
-# then rebase or merge main into your branch before opening PR
-git checkout student-LastName-FirstName
-git rebase main
 ```
 
-Short PR checklist (add this to PR description):
+4. Use branches and Pull Requests when they help you isolate experiments, review changes, or collaborate. Branch names should describe their purpose, such as `experiment/sensor-test`, `docs/lvp-design`, or `feature/interaction-model`.
+
+5. Link project Issues to your GitHub Project and milestones. Keep completed work, decisions, testing results, and revisions visible in the repository history.
+
+## Class Repository Workflow
+
+The class repository is for course materials, assignments, shared activities, and class resources. Do not place your individual project work there unless a specific assignment instructs you to submit or transfer an artifact.
+
+## Pull Request Checklist
+
+Use this checklist when a Pull Request is useful in your individual repository:
 
 - Title: concise summary of changes
 - Link to Week/Assignment issue
-- Files changed: `projects/YourName/` path
+- Files changed: identify the relevant project path
 - Description: what you added/changed and why
 - AI use: disclose any AI assistance (prompts, tools, edits)
 - Tests/Notes: how to preview or run any demos

@@ -33,7 +33,7 @@ Students dedicate classroom and independent-study time to begin developing a cul
 
 Students develop project ideas, research precedents and technical possibilities, break proposed work into executable components with estimated times to completion, iterate through prototypes, and document their work. MTEC 3501 is designed to prepare students for ENT 4501 — Culmination Project, in which they finalize and present the work begun in this course.
 
-By the end of the semester, students should have a clearly articulated project proposal, a functioning Proof of Concept, an organized development record, and a presentation that communicates the project's purpose, process, feasibility, and next steps.
+By the end of the semester, students should have a clearly articulated project proposal, a required LVP Design Document for ENT 4501, a functioning Proof of Concept, an organized development record, and a presentation that communicates the project's purpose, process, feasibility, and next steps.
 
 ## 3. Course Framework
 
@@ -43,9 +43,11 @@ The course uses an iterative six-stage framework:
 
 These stages are not a rigid waterfall. Students may return to earlier stages whenever research, testing, critique, or new constraints require a project revision.
 
+SRDMPA is also used repeatedly at different project scales. In MTEC 3501, the cycle develops from the North Star Vision through research and design into a focused making/production effort whose principal result is the Proof of Concept, followed by presentation and assessment. At the same time, students carry the larger project forward by completing the design work for the ENT 4501 LVP and, where appropriate, beginning limited LVP making. The PoC and the LVP are therefore related but distinct outcomes: the PoC demonstrates readiness at the end of this course, while the LVP is the minimum functional project requirement for the following course.
+
 ### 3.1 Speculate
 
-Generate ideas, explore alternative possibilities, define a project scope, and articulate both an aspirational **Climax Version (CLV)** and a feasible direction. The CLV establishes the larger intellectual and practical universe within which a smaller, testable project can be developed.
+Generate ideas, explore alternative possibilities, define a project scope, and articulate both an aspirational **North Star Vision (NSV)** and a feasible direction. The NSV establishes the larger intellectual and practical universe within which a focused, testable project can be developed.
 
 ### 3.2 Research
 
@@ -57,7 +59,7 @@ Develop proposals, requirements, diagrams, specifications, mediation pathways, s
 
 ### 3.4 Make / Produce
 
-Construct, program, compose, fabricate, test, integrate, and revise the project. The semester's principal making target is a demonstrable Proof of Concept.
+Construct, program, compose, fabricate, test, integrate, and revise the project. The semester's principal making/production target is a demonstrable Proof of Concept. Students may also begin limited implementation of the LVP when that work supports the PoC or clarifies the next course's design.
 
 ### 3.5 Present / Publish
 
@@ -92,7 +94,7 @@ Learning outcomes are assessed through the documented project process, course ac
 | 2. Organized, version-controlled documentation | Student repository structure, Markdown documentation, commits, and revision history |
 | 3. Giving and receiving constructive feedback | Peer critique, issue comments, feedback records, and documented revisions |
 | 4. Precedent, technical, and industry research | Zotero-supported research summaries, source annotations, citations, feasibility notes, and analysis of competing or alternate approaches |
-| 5. Comprehensive project proposal | Proposal package integrating situational awareness, research, design, methodology, resources, timeline, and deliverables |
+| 5. Comprehensive project proposal | Proposal package and required LVP Design Document integrating situational awareness, research, design, methodology, resources, timeline, and deliverables |
 | 6. GitHub project management | Issues, labels, milestones, Projects, branches, commits, and Pull Requests used appropriately |
 | 7. Functional Proof of Concept | Prototype demonstration, testing records, technical documentation, and iteration evidence |
 | 8. Project presentation | Midpoint and final presentations, demonstrations, supporting media, and responses to questions |
@@ -101,14 +103,13 @@ Learning outcomes are assessed through the documented project process, course ac
 
 ## 5. Project Targets
 
-Students should distinguish among the project's aspirational goal, the planning target for this course, and the prototypes that demonstrate readiness for continued development:
+Students should distinguish among the project's aspirational vision, next semester's minimum project requirement, and this semester's focused final demonstration:
 
-1. **Climax Version (CLV):** Begin by imagining the most expansive and ambitious version of the project. The CLV establishes the larger intellectual universe, audience, context, and possible future directions of the work. It is an aspirational target for students who may continue developing the project beyond the scope of their degree requirements; it is not the expected semester deliverable.
-2. **MTEC 3501 LVP design target:** Define and document a feasible **Least Viable Product (LVP)** that can be developed in the following course, ENT 4501 — Culmination Project. MTEC 3501 should produce the research, design documentation, requirements, timeline, and project plan needed to make that LVP actionable.
-3. **MTEC 3501 Proof of Concept (PoC):** Build and present a focused, functional demonstration that tests enough of the project's creative and technical approach for evaluating faculty to determine whether the project is sufficiently complex and whether the student has the skills and knowledge needed to develop it successfully.
-4. **ENT 4501 LVP:** In the subsequent course, develop and present the functional LVP as the principal publish/presentation outcome of the continued project.
+1. **North Star Vision (NSV):** Begin by imagining the most expansive and ambitious version of the project. The NSV establishes the larger intellectual universe, audience, context, and possible future directions of the work. It is an aspirational target for students who may continue developing the project beyond the scope of their degree requirements; it is not the expected semester deliverable.
+2. **ENT 4501 Least Viable Product (LVP):** Define and document the minimum functional project requirement for the following course, ENT 4501 — Culmination Project. MTEC 3501 requires an **LVP Design Document** containing the research, design documentation, requirements, timeline, and project plan needed to make that LVP actionable. In ENT 4501, the student develops and presents the LVP as the principal publish/presentation outcome of the continued project.
+3. **MTEC 3501 Proof of Concept (PoC):** Build and present a smaller, focused, functional demonstration as the final project deliverable for this course. The PoC should test enough of the project's creative and technical approach for evaluating faculty to determine whether the project is sufficiently complex and whether the student has the skills and knowledge needed to develop it successfully. It is not the LVP and is not expected to implement the complete project.
 
-The proposal should explain how these targets relate to one another and should demonstrate situational awareness: what relevant projects, products, practices, or alternate approaches already exist; how the proposed project is situated among them; and what value or distinctive contribution it provides. The MTEC 3501 PoC does not need to implement the complete LVP; it must provide credible evidence of feasibility, project complexity, and student readiness for ENT 4501. Students present the PoC during the scheduled presentation sessions, using demonstrations, documentation, and responses to questions to support that evaluation.
+The proposal should explain how these targets relate to one another and should demonstrate situational awareness: what relevant projects, products, practices, or alternate approaches already exist; how the proposed project is situated among them; and what value or distinctive contribution it provides. The student should show how the PoC points toward the LVP without confusing the two deliverables. Students present the PoC during the scheduled presentation sessions, using demonstrations, documentation, and responses to questions to support the evaluation of project complexity and readiness for ENT 4501.
 
 ## 6. GitHub, Research, and Communication Workflow
 
@@ -182,7 +183,7 @@ Students present the Proof of Concept during the two scheduled presentation sess
 The exact sequence and deadlines are maintained in the current semester assignment files. Major deliverables normally include:
 
 - Speculative project seed and expanded brainstorming record
-- Detailed project proposal
+- Detailed project proposal and LVP Design Document for ENT 4501
 - Precedent and technical research summary with Zotero-supported citations
 - Design documentation and mediation pathway diagrams
 - Project timeline, milestones, resource plan, and task issues
@@ -194,17 +195,24 @@ The exact sequence and deadlines are maintained in the current semester assignme
 
 ## 9. Collaborative AI Policy
 
-AI tools may be used as collaborators in ideation, research discovery, design, prototyping, documentation, project management, and presentation preparation. Students retain responsibility for the accuracy, originality, ethics, and final decisions represented in their work.
+AI use in an individual project is optional. Students may develop projects entirely without AI, and choosing not to use AI is a legitimate project decision when it is supported by the project's purpose and methods. Regardless of that choice, students are expected to develop enough AI literacy to determine when AI is useful, when it is inappropriate or unnecessary, and how it can be used responsibly.
+
+Because MTEC 3501 is a course in Emerging Media, selected class activities and learning materials deliberately engage with AI as a significant contemporary technology. These activities develop critical and practical understanding; they do not require students to incorporate AI into their own projects.
+
+When a student elects to use AI, it may have several legitimate roles. It may function as a tool that supports student work, as a significant creative or technical contributor or project component, or as the subject, medium, or system being investigated. A project may therefore be substantially about working with AI, provided that its purpose, methods, limitations, and value are clearly defined.
+
+Students retain responsibility for the project's framing, accuracy, originality, ethics, testing, attribution, and final decisions. Describing AI as a contributor does not transfer responsibility for the resulting work to the AI system.
 
 Students must:
 
 - Verify AI-generated claims, sources, code, and technical suggestions.
 - Attribute borrowed or AI-generated text, code, images, audio, video, and other media.
-- Document significant AI use, including the tool, version where available, purpose, and relevant prompts or questions.
+- Document the role of AI in the project, including the tool or system, version where available, purpose, significant prompts or inputs, outputs used, and the student's contributions and decisions.
 - Explain how AI output was evaluated, revised, accepted, or rejected.
+- When AI is a project component or subject, document its capabilities, constraints, behavior, data or training considerations where knowable, and the tests used to evaluate it.
 - Respect copyright, privacy, data protection, licensing, and academic-integrity requirements.
 
-A visible **AI Use Acknowledgment** may appear in a README, report, issue, image caption, presentation slide, or other appropriate location. Students who do not use AI for a particular artifact may state that no AI assistance was used when that clarification is relevant.
+A visible **AI Collaboration Statement** must appear in the project README, proposal, LVP Design Document, presentation materials, or another appropriate location. It should identify whether AI served as a tool, contributor/component, subject/medium, or combination of roles. Students who do not use AI for a particular artifact may state that no AI assistance was used when that clarification is relevant.
 
 Failure to disclose significant AI assistance, fabrication of AI use, plagiarism, or misuse of copyrighted material may result in the work being considered incomplete or in violation of academic-integrity policies. Students should consult the instructor when uncertain.
 

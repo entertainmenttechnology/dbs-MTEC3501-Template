@@ -47,9 +47,9 @@ All new students must complete **Week 1 Onboarding** before proceeding:
 Useful links:
 
 - Assignments index: [assignments/README.md](assignments/README.md)
-- Syllabus: [Simple Syllabus — update link per semester]
+ - [Generic Markdown Syllabus](documents-Class/Syllabus_MTEC3501.md) — update the semester configuration before distribution
+ - Official syllabus: [update link per semester]
 
----
 
 ## Weekly Update
 
