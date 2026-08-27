@@ -45,11 +45,11 @@ These stages are not a rigid waterfall. Students may return to earlier stages wh
 
 ### 3.1 Speculate
 
-Generate ideas, explore alternative possibilities, define a project scope, and articulate both an aspirational **Climax Version** and a feasible direction.
+Generate ideas, explore alternative possibilities, define a project scope, and articulate both an aspirational **Climax Version (CLV)** and a feasible direction. The CLV establishes the larger intellectual and practical universe within which a smaller, testable project can be developed.
 
 ### 3.2 Research
 
-Investigate cultural, historical, artistic, scholarly, and technical precedents. Record sources appropriately in Zotero and connect research findings to project decisions.
+Investigate cultural, historical, artistic, scholarly, technical, and industry precedents. Develop situational awareness by identifying competing or alternate versions of the project, understanding the current state of relevant practice, and explaining the value this project could provide. Record sources appropriately in Zotero and connect research findings to project decisions.
 
 ### 3.3 Design
 
@@ -74,8 +74,8 @@ By successfully completing the course, students should be able to:
 1. Employ industry-standard brainstorming and ideation techniques independently and collaboratively.
 2. Produce clear, organized, version-controlled project documentation.
 3. Give and receive constructive feedback on creative and technical project ideas.
-4. Conduct effective precedent and technical research with appropriate citation and critical evaluation of sources.
-5. Create a comprehensive project proposal that integrates research, design, prototyping, methodology, resources, timeline, and deliverables.
+4. Conduct effective precedent, technical, and industry research with appropriate citation and critical evaluation of sources.
+5. Create a comprehensive project proposal that integrates situational awareness, research, design, prototyping, methodology, resources, timeline, and deliverables.
 6. Use GitHub Issues, labels, milestones, Projects, branches, commits, and Pull Requests as appropriate for project development.
 7. Develop and demonstrate a functional, testable Proof of Concept.
 8. Prepare and deliver a concise presentation defending the project's purpose, design, feasibility, and next steps.
@@ -91,8 +91,8 @@ Learning outcomes are assessed through the documented project process, course ac
 | 1. Brainstorming and ideation | Speculative writing, brainstorming records, GitHub issues, and collaborative activities |
 | 2. Organized, version-controlled documentation | Student repository structure, Markdown documentation, commits, and revision history |
 | 3. Giving and receiving constructive feedback | Peer critique, issue comments, feedback records, and documented revisions |
-| 4. Precedent and technical research | Zotero-supported research summaries, source annotations, citations, and feasibility notes |
-| 5. Comprehensive project proposal | Proposal package integrating research, design, methodology, resources, timeline, and deliverables |
+| 4. Precedent, technical, and industry research | Zotero-supported research summaries, source annotations, citations, feasibility notes, and analysis of competing or alternate approaches |
+| 5. Comprehensive project proposal | Proposal package integrating situational awareness, research, design, methodology, resources, timeline, and deliverables |
 | 6. GitHub project management | Issues, labels, milestones, Projects, branches, commits, and Pull Requests used appropriately |
 | 7. Functional Proof of Concept | Prototype demonstration, testing records, technical documentation, and iteration evidence |
 | 8. Project presentation | Midpoint and final presentations, demonstrations, supporting media, and responses to questions |
@@ -103,12 +103,12 @@ Learning outcomes are assessed through the documented project process, course ac
 
 Students should distinguish among the project's aspirational goal, the planning target for this course, and the prototypes that demonstrate readiness for continued development:
 
-1. **Climax Version:** Begin by imagining the most expansive and ambitious version of the project. This is an aspirational target for students who may continue developing the work beyond the scope of their degree requirements; it is not the expected semester deliverable.
+1. **Climax Version (CLV):** Begin by imagining the most expansive and ambitious version of the project. The CLV establishes the larger intellectual universe, audience, context, and possible future directions of the work. It is an aspirational target for students who may continue developing the project beyond the scope of their degree requirements; it is not the expected semester deliverable.
 2. **MTEC 3501 LVP design target:** Define and document a feasible **Least Viable Product (LVP)** that can be developed in the following course, ENT 4501 — Culmination Project. MTEC 3501 should produce the research, design documentation, requirements, timeline, and project plan needed to make that LVP actionable.
-3. **MTEC 3501 Proof of Concept:** Build and present a focused, functional demonstration that tests enough of the project's creative and technical approach for evaluating faculty to determine whether the project is sufficiently complex and whether the student has the skills and knowledge needed to develop it successfully.
+3. **MTEC 3501 Proof of Concept (PoC):** Build and present a focused, functional demonstration that tests enough of the project's creative and technical approach for evaluating faculty to determine whether the project is sufficiently complex and whether the student has the skills and knowledge needed to develop it successfully.
 4. **ENT 4501 LVP:** In the subsequent course, develop and present the functional LVP as the principal publish/presentation outcome of the continued project.
 
-The proposal should explain how these targets relate to one another. The MTEC 3501 PoC does not need to implement the complete LVP; it must provide credible evidence of feasibility, project complexity, and student readiness for ENT 4501. Students present the PoC during the scheduled presentation sessions, using demonstrations, documentation, and responses to questions to support that evaluation.
+The proposal should explain how these targets relate to one another and should demonstrate situational awareness: what relevant projects, products, practices, or alternate approaches already exist; how the proposed project is situated among them; and what value or distinctive contribution it provides. The MTEC 3501 PoC does not need to implement the complete LVP; it must provide credible evidence of feasibility, project complexity, and student readiness for ENT 4501. Students present the PoC during the scheduled presentation sessions, using demonstrations, documentation, and responses to questions to support that evaluation.
 
 ## 6. GitHub, Research, and Communication Workflow
 
