@@ -5,7 +5,7 @@
 | Week | Modality | Date | Topic | Deliverables |
 |-----|-----|-----|-----|-----|
 | 1 | Zoom | [date] | Orientation; course overview; SRDMPA stages; introduction to BBS and mediation pathways; GitHub introduction; Collaborative AI and CHI overview; practicum exercise | Speculative reflective storm essay assigned; GitHub onboarding assignment |
-| 2 | In Person | [date] | Structured brainstorming; GitHub and Zotero onboarding; precedent research methods; creating issues and labels | Speculative proposal uploaded to repository |
+| 2 | [Modality] | [Date] | Structured brainstorming; GitHub and Zotero onboarding; precedent research methods; create a development branch; GitHub Issues and labels | Speculative Reflection completed; project repository updated; development branch created |
 | 3 | In Person | [date] | Brainstorming strategies; converting ideas to GitHub issues; issue templates and assignments | GitHub repository updated with issues and templates |
 | — | — | [date] | **NO CLASS – College Closed (if applicable)** | — |
 | 4 | In Person | [date] | Precedent research and citation practices; Zotero integration; linking citations in GitHub Markdown | Research summary uploaded |
